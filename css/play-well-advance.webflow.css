@@ -1,0 +1,278 @@
+.mapdisplay {
+  width: 960px;
+  height: 500px;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.activity {
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, .6);
+  background-color: rgba(0, 153, 255, .12);
+}
+
+.activity.mandatory {
+  background-color: rgba(65, 0, 255, .12);
+}
+
+.activity.optional {
+  background-color: rgba(0, 255, 110, .12);
+}
+
+.timeslot {
+  text-align: left;
+}
+
+.time {
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.scheduledescription {
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.quiethours {
+  margin-top: 30px;
+  margin-bottom: 220px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.sectionintro {
+  margin-bottom: 20px;
+}
+
+.presenterphoto {
+  display: block;
+  width: 132px;
+  height: 198px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25%;
+}
+
+.presenterphoto.dual {
+  margin-left: auto;
+  padding-left: 5px;
+}
+
+.presenterphoto.dual.dual-right {
+  float: right;
+}
+
+.workshopdescription {
+  margin-right: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.teamphoto {
+  margin-left: 2px;
+  padding-left: 11px;
+  float: right;
+  clear: left;
+}
+
+.brand {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.topnavlink {
+  height: 80px;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 5px solid transparent;
+  text-decoration: none;
+}
+
+.topnavlink:hover {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+  border-top: 5px solid #5ec6cf;
+  border-bottom: 1px none #000;
+  color: #5ec6cf;
+}
+
+.topnavlink.w--current {
+  padding-top: 25px;
+  border-top: 5px solid #5ec6cf;
+  border-bottom: 1px none #000;
+  color: #5ec6cf;
+  text-transform: none;
+}
+
+.topnavlink.schedule {
+  float: none;
+  direction: ltr;
+}
+
+.topnavlink.schedule:hover {
+  border-top: 6px solid #9a5dcf;
+  box-shadow: none;
+  color: #9a5dcf;
+}
+
+.topnavlink.schedule.w--current {
+  padding-top: 24px;
+  padding-bottom: 30px;
+  border-style: solid none none;
+  border-width: 5px;
+  border-color: #9a5dcf #5ec6cf #5ec6cf;
+  color: #9a5dcf;
+}
+
+.topnavlink.workshop:hover {
+  float: none;
+  border-top-width: 6px;
+  border-top-color: #5dcf69;
+  color: #5dcf69;
+}
+
+.topnavlink.workshop.w--current {
+  padding-top: 25px;
+  border-top: 6px solid #5dcf69;
+  color: #5dcf69;
+}
+
+.topnavlink.venue:hover {
+  border-top-width: 6px;
+  border-top-color: #cf6f5d;
+  color: #cf6f5d;
+}
+
+.topnavlink.venue.w--current {
+  padding-top: 25px;
+  border-top: 5px solid #cf6f5d;
+  border-bottom: 1px none #000;
+  color: #cf6f5d;
+}
+
+.topnavlink.travel:hover {
+  border-top-width: 6px;
+  border-top-color: #f88f05;
+  color: #f88f05;
+}
+
+.topnavlink.travel.w--current {
+  padding-top: 25px;
+  border-top: 5px solid #f88f05;
+  color: #f88f05;
+}
+
+.topnavlink.estes:hover {
+  border-top-width: 6px;
+  border-top-color: #1451b0;
+  color: #1451b0;
+}
+
+.topnavlink.estes.w--current {
+  padding-top: 25px;
+  border-top: 5px solid #1451b0;
+  color: #1451b0;
+}
+
+.topnav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  border-bottom: 1px solid #d4d4d4;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+}
+
+.body {
+  padding-top: 80px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.aboutsection {
+  padding-top: 18px;
+  padding-bottom: 0px;
+}
+
+.pagesection {
+  margin-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+.pagesection.about {
+  margin-bottom: 250px;
+}
+
+.tabmenu {
+  width: 939px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.tablink {
+  left: 0px;
+  right: 0px;
+}
+
+.tablink.button {
+  overflow: visible;
+  width: 14%;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 5%;
+  padding-bottom: 10px;
+  padding-left: 3%;
+  border: 2px solid #5ec6cf;
+  border-radius: 11px;
+  background-color: transparent;
+  color: #5ec6cf;
+  list-style-type: lower-alpha;
+}
+
+.tablink.button.w--current {
+  left: 0px;
+  top: 0px;
+  right: auto;
+  bottom: 0px;
+  width: 14%;
+  padding-right: 5%;
+  padding-left: 3%;
+  background-color: #5ec6cf;
+  color: #fff;
+  text-align: center;
+}
+
+.tablink.button.button-large {
+  width: 18%;
+}
+
+.workmandlink {
+  margin-right: 1px;
+  text-decoration: none;
+}
+
+.workoptlink {
+  text-decoration: none;
+}
+
+.packlist_btn_text {
+  overflow: visible;
+  padding-left: 11px;
+}
+
+.estes_map {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
