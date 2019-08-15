@@ -10,6 +10,7 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/play-well-advance.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/app.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -18,6 +19,7 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
+  <div id="app">
   <div data-collapse="medium" data-animation="default" data-duration="400" class="topnav w-nav">
     <div class="w-container"><a href="#" class="brand w-nav-brand"><img src="images/newLogo.svg" width="72"></a>
       <nav role="navigation" class="w-nav-menu"><a href="#AboutSection" class="topnavlink w-nav-link">About</a><a href="#ScheduleSection" class="topnavlink schedule w-nav-link">Schedule</a><a href="#WorkshopsSection" class="topnavlink workshop w-nav-link">Workshops</a><a href="#VenueSection" class="topnavlink venue w-nav-link">Venue</a><a href="#TravelSection" class="topnavlink travel w-nav-link">Travel</a><a href="#BayAreaSection" class="topnavlink estes w-nav-link">Montreat, NC</a></nav>
@@ -898,16 +900,17 @@
   </div>
   <div id="BayAreaSection" class="pagesection">
     <div class="w-container">
-      <h2 class="section-heading">Montreat</h2>
-      <div class="sectionintro">TODO - center and add bottom margin</div>
-      <div style-"margin-bottom: 20px;">
+      <h2 class="section-heading">Montreat Area</h2>
+      <div class="sectionintro"></div>
+      <div class="mb-10 flex justify-center">
        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10070.262654404863!2d-82.29484196743016!3d35.644271575337726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1565823088980!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
        </div>
     </div>
   </div>
-  <div></div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript">
         // When the window has finished loading create our google map below
